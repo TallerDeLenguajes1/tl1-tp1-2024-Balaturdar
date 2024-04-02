@@ -16,7 +16,11 @@ https://git-scm.com/docs/gitignore
 
 ## Punto 3
 
-###  Revise los archivos subidos en su repositorio de github. ¿Qué archivos vé?¿Cuál cree que no hace falta que esté?
+### e)Revise los archivos subidos en su repositorio de github. ¿Qué archivos vé?¿Cuál cree que no hace falta que esté?
 
 - En el repositorio se encuentran los archivos .gitignore, README.md y tp1_1.cpp. En mi caso subi los archivos antes de compilar, pero una vez compilado sobraria el ejecutable tp1_1.exe .
 
+### g)Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué? 
+
+- El resultado es el mismo ya que la utilidad de una variable de tipo puntero es almacenar una direccion de memoria para poder acceder a su contenido, en este caso el contenido del puntero es la direccion de la variable por eso son iguales.
+- En el punto 4 el resultado es diferente a los anteriores ya que aunque el puntero almacena una direccion de memoria, tambien se encuentra alojada en una direccion de memoria.
